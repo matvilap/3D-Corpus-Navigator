@@ -8,6 +8,7 @@ The .zip file contains the Windows application made in Unreal Engine 5 to run th
 The Max collective file (.mxf) requires Max runtime and FluCoMa toolkit installed.
 
 # Using the Max patch
+![3d-corpusnav-max-02](https://github.com/user-attachments/assets/c83e0017-739d-4ab7-8256-5e5dd9ecf4a2)
 
 1) Drag and drop folder with sound corpus in purple box, select preset if desired
 
