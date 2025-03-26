@@ -7,21 +7,21 @@ The .zip file contains the Windows application made in Unreal Engine 5 to run th
 
 The Max collective file (.mxf) requires Max runtime and FluCoMa toolkit installed.
 
-# Using the Max patch
+# Using the Max patch for sound analysis
 ![3d-corpusnav-max-02](https://github.com/user-attachments/assets/c83e0017-739d-4ab7-8256-5e5dd9ecf4a2)
 
-1) Drag and drop folder with sound corpus in purple box, select preset if desired
+0) Setup IP address for communication with the virtual environment. By default it is set to local host IP address, send port 8001, and receive port 1234.
 
-2) Adjust the slicing algorithm (novelty slice or onset slice) and threshold, hit bang to slice. When the process is over the number box will indicate the number of slices in the sound corpus.
+1) Drag and drop folder with multiple or a single sound file in the purple box.
 
-3) Descriptor analysis of the sound corpus. Select algorithm to generate data to plot in XY plane and Z axis respectively, hit bang to start the analysis. When the process is over, the matrix of data should appear in the Max console.
+2) Select between FluCoMa's novelty slice or onset slice and set the threshold for the selected algorithm, then hit bang to slice. When the process is over the number box labeled 'Total slices' will indicate the number of slices generated, and you should be able to see the waveform of your sound collection as a single buffer at the top center of the patch. Adjust setting and repeat to get a different number of slices, these are not all the same length.
 
-4) Plot in 2D. Select between PCA and UMAP for dimensionality reduction, adjust parameters for UMAP if selected. Hit bang to plot, the result is shown in the graph in the middle of the patch. 
+3) Select what types of descriptor analysis to apply to the sound corpus. Select the algorithm to generate data to plot in XY plane and Z axis respectively, hit bang to start the analysis. When the process is over, the data matrix should appear in the Max console.
 
-5) Plot 3D. Start with the default parameters: xyz, and scale of 1000 units for each axis.
+4) Once the descriptor analysis data has been generated plot the XY analysis in the 2D graph. Select between PCA and UMAP for dimensionality reduction, adjust parameters for UMAP if selected. Hit bang to plot, the result is shown in the graph in the middle of the patch. 
 
-6) Turn the audio on, click and drag cursor on the graph to activate different slices and test the audio output.
+5) Select the scale and orientation that will be used to plot the descriptor analysis data in 3D space. The default parameters are: xyz, and scale of 1000 units for each axis. **Do not hit the spawn button without having opened the 3D environment** 
 
-7) Select a preset in the movement preset area.
+6) Turn the audio on, click and drag cursor on the graph to activate different slices to test the audio output.
 
 # Controls in the virtual environment
