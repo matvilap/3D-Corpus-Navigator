@@ -24,4 +24,14 @@ The Max collective file (.mxf) requires Max runtime and FluCoMa toolkit installe
 
 6) Turn the audio on, click and drag cursor on the graph to activate different slices to test the audio output.
 
+# Running the virtual environment
+Download the 3DCorpusNavigator.zip file on a Windows machine and unzip, the current version does not run on OSX. Inside the 'Windows' folder run the .exe file to run the virtual environment. 
+
 # Controls in the virtual environment
+In order to visualize the point and interact with it, be sure to follow all the steps to run the analysis in the Max patch first. Once you have run the sound descriptor analysis in Max, and in the virtual environment, you can use a mouse and keyboard or a game controller (Xbox, PS, Switch, etc) to move and interact in virtual space.
+
+<img width="1083" alt="controller_pointcloud_v3" src="https://github.com/user-attachments/assets/4b5e1aed-5dc9-46d9-a8e3-86693d876aeb" />
+
+
+
+
